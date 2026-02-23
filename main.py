@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 import asyncio
 
-TOKEN = os.getenv("MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.G12YDc.dGm8419fXB-sW7ddeFmhUxl8N_y9VVEz9pngnk")
+TOKEN = os.getenv("MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.GZUNSI._l45rBTrkGb_qKnkN2j6xNwtYNpcBqqxCcNsy4")
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -27,7 +27,7 @@ async def ping(ctx):
     await ctx.send(f"Pong! 🏓 {round(bot.latency * 1000)}ms")
 
 # Auto reconnect loop
-async def start_bot():
+async def start_bot(MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.GZUNSI._l45rBTrkGb_qKnkN2j6xNwtYNpcBqqxCcNsy4):
     while True:
         try:
             await bot.start(MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.G12YDc.dGm8419fXB-sW7ddeFmhUxl8N_y9VVEz9pngnk)
