@@ -30,7 +30,7 @@ async def ping(ctx):
 async def start_bot(MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.GZUNSI._l45rBTrkGb_qKnkN2j6xNwtYNpcBqqxCcNsy4):
     while True:
         try:
-            await bot.start(MTQ1ODg1MTk3NTY1ODYwMjQ5Ng.G12YDc.dGm8419fXB-sW7ddeFmhUxl8N_y9VVEz9pngnk)
+            await bot.start(TOKEN)
         except Exception as e:
             print(f"Bot crash: {e}")
             await asyncio.sleep(5)
